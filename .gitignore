@@ -1,0 +1,22 @@
+# go dep
+vendor/
+
+# os / common IDE
+.idea
+.DS_Store
+
+
+# FE build and dep:
+frontend/dist
+.DS_Store
+.cache
+.idea
+.gradle
+.sass-cache
+.temp
+node_modules
+npm-debug.log
+yarn-error.log
+src/sass/.includes
+coverage
+junit.xml

@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flamingo-carotene-core": "^6.2.15",
+    "flamingo-carotene-pug": "^6.2.15",
+    "flamingo-carotene-static-asset": "^6.2.15",
+    "flamingo-carotene-webpack": "^6.2.15"
+  }
+}

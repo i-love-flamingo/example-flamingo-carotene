@@ -6,6 +6,7 @@ import (
 	"flamingo.me/flamingo/v3"
 	"flamingo.me/flamingo/v3/core/requestlogger"
 	"flamingo.me/flamingo/v3/core/zap"
+	"flamingo.me/pugtemplate"
 )
 
 // main is our entry point
@@ -14,5 +15,6 @@ func main() {
 		new(zap.Module),           // log formatter
 		new(requestlogger.Module), // requestlogger show request logs
 		new(helloworld.Module),
+		new(pugtemplate.Module),
 	})
 }

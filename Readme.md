@@ -1,4 +1,4 @@
-# Flamingo Example Flamingo Carotene
+# Tutorial Flamingo Carotene
 
 In this tutorial and example you will learn how to use Flamingo Carotene based frontend templating to your project. 
 

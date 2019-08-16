@@ -24,7 +24,7 @@ func (controller *HelloController) Inject(responder *web.Responder) {
 
 func (controller *HelloController) Get(ctx context.Context, r *web.Request) web.Result {
 	// Calling the Render method from the response helper and render the template "hello"
-	return controller.responder.Render("hello", helloViewData{
+	return controller.responder.Render("hello/hello", helloViewData{
 		Name: "World",
 	})
 }
@@ -37,7 +37,7 @@ func (controller *HelloController) GreetMe(ctx context.Context, r *web.Request) 
 
 	nick, _ := r.Params["nickname"]
 
-	return controller.responder.Render("hello", helloViewData{
+	return controller.responder.Render("hello/hello", helloViewData{
 		Name:     name,
 		Nickname: nick,
 	})

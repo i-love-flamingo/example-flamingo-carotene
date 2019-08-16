@@ -1,0 +1,15 @@
+html
+  head
+    meta(charset='utf-8')
+    link(rel="stylesheet", href=asset("css/main.css"))
+    script(src=asset("js/main.js"))
+
+  body
+    header
+      img(src=asset("asset/logo_b_w.png"))
+      h1 Flamingo Carotene Example
+      p Time is #{data("currenttime")}
+
+    .content
+      block content
+        h1 Content Area

@@ -1,9 +1,11 @@
-h1 Hello #{name}
-img(src=asset("asset/logo.png"))
-if nickname == "aoepeople"
-    h2 Ah you are from AOE :-)
-else
-    h2 Hello #{nickname}
+extends /template/base/base
 
-p Current Time:
-p=data("currenttime")
+block content
+    h1 Hello #{name}
+    if nickname == "aoepeople"
+        h2 Ah you are from AOE :-)
+    else
+        h2 Hello #{nickname}
+
+    p Current Time:
+    p=data("currenttime")

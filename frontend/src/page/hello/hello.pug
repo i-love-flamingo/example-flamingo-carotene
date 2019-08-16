@@ -1,4 +1,5 @@
 extends /template/base/base
+include /component/button/button
 
 block content
     h1 Hello #{name}
@@ -9,3 +10,6 @@ block content
 
     p Current Time:
     p=data("currenttime")
+    
+    +button("http://www.flamingo.me")
+        | My button

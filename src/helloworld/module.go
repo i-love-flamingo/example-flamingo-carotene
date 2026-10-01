@@ -2,7 +2,7 @@ package helloworld
 
 import (
 	"flamingo.me/dingo"
-	"flamingo.me/example-hello-flamingo-carotene/src/helloWorld/interfaces"
+	"flamingo.me/example-hello-flamingo-carotene/src/helloworld/interfaces"
 	"flamingo.me/flamingo/v3/framework/web"
 )
 
